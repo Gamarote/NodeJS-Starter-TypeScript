@@ -13,8 +13,8 @@ var app = express()
 
 app.set('PORT', process.env.PORT || 8000)
 app.use(cors())
-app.use(bodyParser.json({  }))
-app.use(bodyParser.urlencoded({  }))
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: true }))
 
 // --- Routes ---
 app.use('/', indexRouter)
