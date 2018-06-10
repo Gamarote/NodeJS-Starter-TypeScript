@@ -1,8 +1,8 @@
 {
-  "name": "nodejs-starter",
+  "name": "nodejs-starter-typescript",
   "version": "1.0.0",
-  "description": "A simple NodeJS Starter",
-  "main": "src/index.js",
+  "description": "A simple TypeScript NodeJS Starter",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "npm run lint && nodemon -e ts -w src --ignore 'src/**/*.spec.ts' --exec npm run start-dev-server",
     "start-dev-server": "ts-node src",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gamarote/NodeJS-Starter.git"
+    "url": "https://github.com/Gamarote/NodeJS-Starter-TypeScript.git"
   },
   "license": "MIT",
   "devDependencies": {
