@@ -54,6 +54,9 @@ export class AppRouter {
                 this.router.route(path)
                     .put(handler)
                 break
+            case Method.PATCH:
+                this.router.route(path)
+                    .patch(handler)
             case Method.ALL:
                 this.router.route(path)
                     .all(handler)
