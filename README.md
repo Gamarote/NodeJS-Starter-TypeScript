@@ -1,2 +1,2 @@
-# NodeJS Starter
-A simple NodeJS Starter using Babel for ES6 features.
+# NodeJS Starter TypeScript
+A simple NodeJS Starter using TypeScript.

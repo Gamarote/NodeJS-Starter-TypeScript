@@ -1,0 +1,52 @@
+{
+    "defaultSeverity": "warning",
+    "extends": [
+        "tslint-eslint-rules"
+    ],
+    "rules": {
+        "deprecation": true,
+        "max-line-length": [true, {
+            "limit": 120, 
+            "ignore-pattern": "^import |^export {(.*?)}|class [a-zA-Z]+ (implements|extends) |//"
+        }],
+        "indent": [true, "spaces", 4],
+        "no-console": [true, "log", "error"],
+        "no-reference": true,
+        "prefer-for-of": true,
+        "no-duplicate-super": true,
+        "no-duplicate-variable": [true, "check-parameters"],
+        "no-implicit-dependencies": [true, "dev"],
+        "no-invalid-template-strings": true,
+        "no-invalid-this": true,
+        "no-string-literal": true,
+        "no-string-throw": true,
+        "no-use-before-declare": true,
+        "prefer-conditional-expression": true,
+        "no-duplicate-imports": true,
+        "no-require-imports": true,
+        "prefer-const": true,
+        "trailing-comma": [true, { "singleline": "never" }],
+        "arrow-return-shorthand": true,
+        "class-name": true,
+        "no-angle-bracket-type-assertion": true,
+        "semicolon": [true, "never"],
+        "return-undefined": true,
+        "quotemark": [true, "single", "avoid-escape", "avoid-template"],
+        "space-before-function-paren": [true, {
+            "anonymous": "always", 
+            "asyncArrow": "always"
+        }],
+        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-trailing-underscore"],
+
+        "no-extra-boolean-cast": true,
+        "block-spacing": [true, "always"],
+        "brace-style": [ true, "1tbs", {
+            "allowSingleLine": true
+        }],
+        "ter-arrow-spacing": [true],
+        "ter-prefer-arrow-callback": [true, {
+            "allowNamedFunctions": true,
+            "allowUnboundThis": false
+        }]
+    }
+}
