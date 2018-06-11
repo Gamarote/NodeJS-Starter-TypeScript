@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npm run lint && nodemon -e ts -w src --ignore 'src/**/*.spec.ts' --exec npm run start-dev-server",
     "start-dev-server": "ts-node src",
-    "lint": "tslint -p ./",
+    "lint": "tslint -p ./ --fix",
     "start": "node server",
     "build": "npm run lint && tsc"
   },
